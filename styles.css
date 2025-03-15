@@ -1,18 +1,18 @@
 @keyframes jitter {
     0% {
-        transform: translateX(4px) rotate(8deg);
+        transform: translateX(9px) rotate(22deg);
     }
     25% {
-        transform: translateX(-4px) rotate(-8deg);
+        transform: translateX(-9px) rotate(-22deg);
     }
     50% {
-        transform: translateX(4px) rotate(8deg);
+        transform: translateX(9px) rotate(22deg);
     }
     75% {
-        transform: translateX(-4px) rotate(-8deg);
+        transform: translateX(-9px) rotate(-22deg);
     }
     100% {
-        transform: translateX(4px) rotate(8deg);
+        transform: translateX(9px) rotate(22deg);
     }
 }
 
@@ -30,6 +30,7 @@ footer {
 
 .wiggle i {
     display: inline-block;
+    transform-origin: top;
     animation: jitter 0.3s infinite;
 }
 

@@ -16,6 +16,13 @@
     }
 }
 
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
 .wiggle i {
     display: inline-block;
     animation: jitter 0.3s infinite;
